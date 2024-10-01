@@ -10,6 +10,15 @@ a{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
+#active {
+    background-color: #fefcfd;
+    color: steelblue
+}
+
 img {
     width: 300px;
+}
+
+.gray {
+    background-color: #ccc;
 }
