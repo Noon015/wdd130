@@ -7,18 +7,46 @@ a{
     color: #000;
     font-size: 24px;
     padding: 25px;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-#active {
-    background-color: #fefcfd;
-    color: steelblue
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover {
+    background-color: beige;
+    color:steelblue
 }
 
 img {
-    width: 300px;
+    width: 50%;
+    display: block;
+    margin: 0 auto
 }
 
 .gray {
     background-color: #ccc;
+}
+
+main a{
+    color:black;
+    font-size: 1em;
+    padding:0;
+}
+
+p{
+    width: 70%;
+    margin: 25px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    color:beige
 }
