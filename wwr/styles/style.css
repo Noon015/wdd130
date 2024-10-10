@@ -1,0 +1,120 @@
+body{
+    background-color: #fefcfd;
+}
+
+.logo{
+    width:80px;
+}
+
+header{
+    background-color: rgb(72, 33, 30);
+}
+
+#content{
+    max-width: 1600px;
+    margin:0 auto;
+}
+
+nav a{
+    text-align: center;
+    color:#fefcfd;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #cc8b86;
+    color:#48211e;
+}
+
+#hero-img{
+    width:100%;
+}
+
+.home-title{
+    color:#cc8b86;
+}
+
+h4{
+    color:#fefcfd;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+.icon{
+    width: 80px;
+}
+
+#background{
+    height: 725px;
+    background-color: rgba(72, 33, 30,.6);
+}
+
+.book{
+    background-color: #ffc223;
+    color:#fefcfd;
+    text-decoration: none;
+}
+
+.join{
+    background-color: #ffc223;
+    color:#fefcfd;
+    text-decoration: none;
+}
+
+.join:hover{
+    background-color: #f7eeba;
+    color:#48211e;
+}
+
+.book:hover{
+    background-color: #f7eeba;
+    color:#48211e;
+}
+
+.msg{
+    background-color: #48211e;
+}
+
+.msg h2{
+    color:#fefcfd;
+}
+
+.msg p{
+    color:#fefcfd;
+}
+
+footer{
+    background-color: #48211e;
+    color:#cc8b86;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color:#cc8b86;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#fefcfd;
+}
