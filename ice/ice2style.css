@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    background-color: grey;
 }
 
 #title_img{
@@ -8,5 +9,8 @@ body{
 }
 
 .bottom_img{
-    width:20%;
+    width:15%;
+    margin:5% 8%;
+    border-radius: 50%;
+    border:12px solid black;
 }
