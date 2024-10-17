@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
 body{
     background-color: #fefcfd;
+    font-family:"Josefin Sans", Dosis, Helvetica;
+    margin:0;
+    padding:0;
 }
 
 .logo{
     width:80px;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 header{
@@ -19,6 +31,7 @@ nav a{
     text-align: center;
     color:#fefcfd;
     text-decoration: none;
+    padding:35px;
 }
 
 nav a:hover{
@@ -32,6 +45,13 @@ nav a:hover{
 
 .home-title{
     color:#cc8b86;
+    font-family: Corben,"IM Fell French Canon", Helvetica;
+    font-size:2em;
+    margin-top:10px;
+}
+
+h2{
+    margin:0;
 }
 
 h4{
@@ -54,8 +74,13 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 .icon{
     width: 80px;
+    padding-top:10px;
 }
 
 #background{
@@ -63,16 +88,30 @@ main section{
     background-color: rgba(72, 33, 30,.6);
 }
 
-.book{
-    background-color: #ffc223;
-    color:#fefcfd;
-    text-decoration: none;
+.rivers-card{
+    margin: 200px 0;
 }
 
-.join{
+.camping-card{
+    margin:200px 0;
+}
+
+.rapids-card{
+    margin:200px 0;
+}
+
+.book, .join{
     background-color: #ffc223;
     color:#fefcfd;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top:50px;
+    border-radius:5px;
+}
+
+.card-img{
+    border:10px solid black;
 }
 
 .join:hover{
@@ -87,19 +126,26 @@ main section{
 
 .msg{
     background-color: #48211e;
+    line-height: 1.5em;
+    padding:35px;
 }
 
 .msg h2{
     color:#fefcfd;
+    font-family: Corben,"IM Fell French Canon",Helvetica;
 }
 
 .msg p{
     color:#fefcfd;
+    font-size: .8em;
+    padding-bottom:15px;
 }
 
 footer{
     background-color: #48211e;
     color:#cc8b86;
+    padding:25px 50px;
+    margin-top:200px;
 }
 
 footer p{
@@ -117,4 +163,8 @@ footer a{
 
 footer a:hover{
     color:#fefcfd;
+}
+
+footer .social_img{
+    padding-top:15px;
 }
