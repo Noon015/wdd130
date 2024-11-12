@@ -277,4 +277,39 @@ footer .social_img{
         margin-top: 25px;
     }
 }
+
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 200px;
+}
+
+#rivers_title{
+    grid-column: 1/3;
+    text-align: center;
+    margin-top:60px;
+    font-size:50px;
+}
+
+.rivers-grid img{
+    width:100%;
+    border: 5px solid black;
+}
+
+.rivers-grid p{
+    background-color: #cc8b86;
+    font-size: 16px;
+    margin:0 64px 0 0;
+    padding:25px;
+    line-height: 40px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.rivers-grid figcaption{
+    text-align: center;
+    margin-top:10px;
+}
             
