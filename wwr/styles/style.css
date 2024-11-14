@@ -283,7 +283,8 @@ footer .social_img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 200px;
+    gap: 100px;
+    margin:90px;
 }
 
 #rivers_title{
