@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+/*CSS for the Main Page of the Personal Website */
+
+
+/*Home Page Header and Nav*/
+body{
+    background-color: white;
+    font-family:"Eagle Lake", Arial,serif;
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    width:90px;
+    border-radius:50%;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self:center;
+    align-self:center;
+}
+
+header{
+    background-color: #3b6064;
+    display:grid;
+    grid-template-columns: 150px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color:#fefcfd;
+    text-decoration: none;
+    padding:35px;
+}
+
+nav a:hover{
+    background-color: #93DCD6;
+    color:#3b6064;
+}
+
+#hero{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row:1/4;
+    z-index: -1;
+}
+
+#hero-img{
+    width:100%;
+}
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row:2/3;
+    text-align: center;
+    color:white;
+    font-family:Lugrasimo,"Eagle Lake", Arial;
+    row-gap:10em;
+}
+
+#hero-msg h1{
+    font-size:40px;
+    font-family:Lugrasimo,"Eagle Lake",Arial;
+    text-shadow: 2px 2px black;
+}
+
+#hero-msg h4{
+    font-size:14px;
+}
+
+#index-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+#intro-p{
+    grid-column: 2/5;
+    grid-row:1/2;
+    border:10px solid #896C7B;
+    background-color: #93DCD6;
+    padding-right:10px;
+    padding-left:10px;
+    font-size:16px;
+    margin-top:15px;
+    margin-bottom:30px;
+}
+
+#character-title{
+    grid-column:3/4;
+    text-align: center;
+    margin-top:280px;
+    font-family:Lugrasimo,"Eagle Lake",Arial;
+    font-size:27px;
+}
+
+.list-title{
+    text-align:center;
+    text-decoration: underline white;
+    font-size:18px;
+}
+
+#achaean-heroes{
+    grid-column: 2/3;
+    grid-row:3/4;
+    background-color:#3b6064;
+    color:white;
+    padding:10px;
+    border:solid #896C7B 6px
+}
+
+#trojan-heroes{
+    grid-column:4/5;
+    grid-row:3/4;
+    color:white;
+    background-color: #3b6064;
+    padding:10px;
+    border:solid #896C7B 6px
+}
+
+#background{
+    grid-column: 1/6;
+    grid-row:3/5;
+    z-index: -1;
+    background-color: grey;
+    margin:-10px 180px;
+}
+
+#helen-box{
+    grid-column:2/5;
+    grid-row:5/6;
+    text-align: center;
+    margin-top:200px;
+}
+
+#helen-img{
+    width:100%;
+}
+
+#start-p{
+    grid-column: 2/5;
+    grid-row:6/7;
+    background-color: #93DCD6;
+    color:black;
+    padding:12px;
+    border:solid #896C7B 10px;
+}
+
+#sacrifice-box{
+    grid-column: 2/4;
+    grid-row:7/8;
+    margin-top:200px;
+    margin-right:0;
+    margin-left:0;
+}
+
+#sacrifice-img{
+    width:100%;
+    margin-right:0;
+    margin-left:0;
+}
+
+#final-p{
+    grid-column:4/5;
+    grid-row:7/8;
+    margin-top:206px;
+    margin-bottom:10px;
+    padding:15px;
+    font-size:13.5px;
+    margin-left:0;
+    height:72.94%;
+    line-height: 32px;
+    background-color: #3b6064;
+    color:white;
+}
+
+footer{
+    background-color: #3b6064;
+    color:white;
+    padding:25px 50px;
+    margin-top:200px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+footer p{
+    font-size: 0.8em;
+}
+
+footer a{
+    text-decoration:none;
+    color:white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color:#93DCD6;
+}

@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achaean Anecdotes Home Page</title>
+    <link href="styles/main-style.css" rel="stylesheet">
 </head>
 <body>
 
 <!--Header and Hero Image-->
+<div class="content">
     <header>
-        <a id="logo-pic" href="index.html">
+        <a id="logo-link" href="index.html">
             <img class="logo" src="images/ach-annec-logo.png" alt="Achaean Anecdotes Logo">
         </a>
-        <a href="index.html">Home</a>
-        <a href="thewar.html">The War</a>
-        <a href="theaftermath.html">Aftermath</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="thewar.html">The War</a>
+            <a href="theaftermath.html">Aftermath</a>
+        </nav>
     </header>
 <!--Hero Image and Title and subtitle that stuff-->
     <div id="hero">
         <div id="hero-box">
-            <img src="images/rsz_giovanni_domenico_tiepolo_-_the_procession_of_the_trojan_horse_in_troy (1).jpg" alt="Procession of the Trojan Horse into Troy">
+            <img id="hero-img" src="images/rsz_giovanni_domenico_tiepolo_-_the_procession_of_the_trojan_horse_in_troy (1).jpg" alt="Procession of the Trojan Horse into Troy">
         </div>
         <section id="hero-msg">
-            <h1 class="hero-title">Achaean Anecdotes</h1>
+            <h1>Achaean Anecdotes</h1>
             <h4>The story of the Trojan War and it's Heroes</h4>
         </section>
     </div>
@@ -34,8 +38,10 @@
              <p>Many people have heard of the Trojan War. The ancient tale of the Greek siege of the city of Troy ends with the famous event of the Greeks building a giant wooden horse in order to sneak into the city of Troy. But the reasoning for the war and context and nuance behind the war is something not many people look into. If you wish to learn about the greatest war in myth then you have come to the right place.<br><br>In order to fully understand the full extent of the Trojan War, we must start at the beginning of this tale. In most versions of the story the beginning of the tale always starts in one place, the marriage of Peleus and Thetis. Now you probably have no idea who these people are and how they are important. So, before we start this story, we need to establish important characters. Who they are and why they are important.<br><br>Now that you know all the characters, we can get to why the war started and who was responsible for the start of war.</p>
          </div>
 
+        <div id="background"></div>
+
 <!--Hero List-->
-         <div id="heroes-list">
+                <h3 id="character-title">Characters</h3>
                 <div id="achaean-heroes">
                     <h4 class="list-title">Heroes of Achaea</h4>
                     <ul>
@@ -66,7 +72,6 @@
                         <li>Achilles</li>
                             <ul>
                                 <li>Son of Peleus of Thetis</li>
-                                <li>Prince of Pythia</li>
                                 <li>Father of Neoptloemus</li>
                                 <li>Leader of the Myrmidons, and ancient band of warriors</li>
                                 <li>Invulnerable due to bathing in the river Styx</li>
@@ -84,22 +89,12 @@
                                 <li>King of Sparta</li>
                                 <li>Husband of Helen</li>
                                 <li>Cursed due to his ancestors, Pelops and Tantalaus</li>
-                                <li>Known for being hot headed and rash, at times</li>
-                            </ul>
-                        <li>Clymenestra</li>
-                            <ul>
-                                <li>Wife of Agamemnon</li>
-                                <li>Queen of Argos</li>
-                                <li>Princess of Sparta</li>
-                                <li>Half sister of Helen</li>
-                                <li>Not a daughter of Zeus, unlike Helen</li>
                             </ul>
                         <li>Diomedes</li>
                             <ul>
                                 <li>One of the greatest Achaean Heroes</li>
                                 <li>Favored Warrior of Athena</li>
                                 <li>Fought in many wars in Thebes</li>
-                                <li>Father eventually becomes king of Argos</li>
                                 <li>Major player in the Trojan War</li>
                             </ul>
                         <li>Nestor</li>
@@ -107,7 +102,6 @@
                                 <li>King of Pylos</li>
                                 <li>Father of Antiochus</li>
                                 <li>Former Argonaut</li>
-                                <li>Main advisor to the Achaean leadership</li>
                                 <li>While old, he is well respected and listende to by the others</li>
                             </ul>
                         <li>Odysseus</li>
@@ -116,44 +110,24 @@
                                 <li>Known for being the smartest and most clever of all the Achaens</li>
                                 <li>Known for getting lost after the war</li>
                                 <li>Husband of Penelope</li>
-                                <li>Father of Telemachus</li>
                             </ul>
                         <li>Helen</li>
                             <ul>
                                 <li>Queen of Sparta</li>
-                                <li>Half Sister of Clymenestra</li>
                                 <li>Daughter of Zeus</li>
                                 <li>Get kidnapped by Paris</li>
-                                <li>She is the reason for the war starting</li>
-                            </ul>
-                        <li>Chalchas</li>
-                            <ul>
-                                <li>Seer of Apollo</li>
-                                <li>Priest of Apollo</li>
-                                <li>Main seer of the Achaean Armies</li>
-                                <li>Adivser to the Achaean Generals</li>
                             </ul>
                         <li>Ajax the Greater</li>
                             <ul>
                                 <li>Son of Telamon</li>
                                 <li>Brother of Teucer</li>
                                 <li>Cousin of Achilles</li>
-                                <li>Grandson of Zeus, through his father</li>
                             </ul>
                         <li>Ajax the Lesser</li>
                             <ul>
                                 <li>Son of Oileus</li>
                                 <li>Warrior of Greece</li>
                                 <li>Not a very nice person</li>
-                                <li>Not much is known about him</li>
-                            </ul>
-                        <li>Teucer</li>
-                            <ul>
-                                <li>Son of Telamon</li>
-                                <li>Brother of Ajax</li>
-                                <li>Grandson of Zeus</li>
-                                <li>Cousin of Achilles</li>
-                                <li>Best archer in the Achaean army</li>
                             </ul>
                         <li>Neoptloemus</li>
                             <ul>
@@ -162,25 +136,11 @@
                                 <li>Second cousin of Ajax and Teucer</li>
                                 <li>Only a teen during the Trojan War</li>
                             </ul>
-                        <li>Philocletes</li>
-                            <ul>
-                                <li>Archer of the Achaean army</li>
-                                <li>Close friend of Heracles</li>
-                                <li>Known for having Heracles' poisoned arrows</li>
-                                <li>Prince of a small kingdom of Thessaly</li>
-                            </ul>
-                        <li>Antiochus</li>
-                            <ul>
-                                <li>Son of Nestor</li>
-                                <li>Prince of Pylos</li>
-                                <li>Minor character</li>
-                            </ul>
                         <li>Patrocles</li>
                             <ul>
                                 <li>Good Friend of Achilles</li>
                                 <li>Second in Command of Achilles</li>
                                 <li>It is debated where he is from</li>
-                                <li>Not much is known about him other than he knows Achilles</li>
                             </ul>
                     </ul>
                 </div>
@@ -267,19 +227,16 @@
                             </ul>
                     </ul>
                 </div>
-         </div>
 
-         <figure>
-            <img src="images/rsz_1abdution_of_helen_by_alessandro_turchi.jpg" alt="Abduction of Helen">
+         <figure id="helen-box">
+            <img id="helen-img" src="images/Abdution of Helen by Alessandro Turchi.jpg" alt="Abduction of Helen">
             <figcaption>The Abduction of Helen by Alessandri Turchi</figcaption>
         </figure>
 
-        <p>The first place to start, and the beginnings of the war, all started at the marriage of Peleus, king of Phthia and the Nereid Thetis. The wedding was a grand event, attended by many of the Gods themselves, there to wish well to the happy couple. But Eris, goddess of discord, was not invited. So, angered by this, she got a golden apple and tied a note to it saying, “For the fairest” and threw it into the party. Landing in front of Hera, Athena, and Aphrodite. The three fought tooth and nail claiming each in turn was, in fact, the fairest. Unable to find who was the fairest, the three ask Zeus to mediate the quarrel. Not wanting to anger any of the goddesses he states that Paris, a random mortal walking nearby, should be the one to choose. The goddesses appear before Paris and offer him gifts and bribes to choose them as the fairest. Hera offered to make him king of Europe and Asia. Athena offered him wisdom and prowess in warfare. Aphrodite offered him the world’s most beautiful woman, who happened to be Helen of Troy, Husband of Menelaus of Sparta. Paris, after some time, chooses the gift of Aphrodite and gives her the apple.</p>
+        <p id="start-p">The first place to start, and the beginnings of the war, all started at the marriage of Peleus, king of Phthia and the Nereid Thetis. The wedding was a grand event, attended by many of the Gods themselves, there to wish well to the happy couple. But Eris, goddess of discord, was not invited. So, angered by this, she got a golden apple and tied a note to it saying, “For the fairest” and threw it into the party. Landing in front of Hera, Athena, and Aphrodite. The three fought tooth and nail claiming each in turn was, in fact, the fairest. Unable to find who was the fairest, the three ask Zeus to mediate the quarrel. Not wanting to anger any of the goddesses he states that Paris, a random mortal walking nearby, should be the one to choose. The goddesses appear before Paris and offer him gifts and bribes to choose them as the fairest. Hera offered to make him king of Europe and Asia. Athena offered him wisdom and prowess in warfare. Aphrodite offered him the world’s most beautiful woman, who happened to be Helen of Troy, Husband of Menelaus of Sparta. Paris, after some time, chooses the gift of Aphrodite and gives her the apple.<br><br>After some time, Paris built ships at the behest of Aphrodite. Paris then sets sail for Sparta. Menelaus and Agamemnon are away at the time of Paris’ arrival, though the reason varies from source to source. Paris arrives in Sparta and, depending on the version, either seduces Helen or just kidnaps her and steals the treasury of Sparta. Learning of his wife's kidnapping, Menelaus calls all of his allies to war against Troy.</p>
 
-        <p>After some time, Paris built ships at the behest of Aphrodite. Paris then sets sail for Sparta. Menelaus and Agamemnon are away at the time of Paris’ arrival, though the reason varies from source to source. Paris arrives in Sparta and, depending on the version, either seduces Helen or just kidnaps her and steals the treasury of Sparta. Learning of his wife's kidnapping, Menelaus calls all of his allies to war against Troy.</p>
-
-        <figure>
-            <img src="images/Bourdon,_Sébastien_-_Le_Sacrifice_d'Iphigénie_-_1653.jpg" alt="Sacrifice of Iphegenia">
+        <figure id="sacrifice-box">
+            <img id="sacrifice-img" src="images/Bourdon,_Sébastien_-_Le_Sacrifice_d'Iphigénie_-_1653.jpg" alt="Sacrifice of Iphegenia">
             <figcaption>Sacrifice of Iphegenia by Sébastien Bourdon</figcaption>
         </figure>
 
@@ -287,6 +244,7 @@
         </p>
 
         </div>
+    </div>
     </main>
 
     <footer>
