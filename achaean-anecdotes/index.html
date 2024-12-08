@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achaean Anecdotes Home Page</title>
     <link href="styles/main-style.css" rel="stylesheet">
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("header").style.top = "0";
+          } else {
+            document.getElementById("header").style.top = "-150px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+
 </head>
 <body>
 
 <!--Header and Hero Image-->
 <div class="content">
-    <header>
+    <header id="header">
         <a id="logo-link" href="index.html">
             <img class="logo" src="images/ach-annec-logo.png" alt="Achaean Anecdotes Logo">
         </a>

@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Aftermath</title>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("header").style.top = "0";
+          } else {
+            document.getElementById("header").style.top = "-150px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+
 </head>
 <body>
     <!--Header and Hero Image-->
-    <header>
+    <header id="header">
         <a id="logo-pic" href="index.html">
             <img class="logo" src="images/ach-annec-logo.png" alt="Achaean Anecdotes Logo">
         </a>

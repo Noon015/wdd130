@@ -16,7 +16,7 @@ body{
 .logo{
     width:90px;
     border-radius:50%;
-     margin-top:5px;
+    margin-top:5px;
 }
 
 #logo_link{
@@ -25,10 +25,14 @@ body{
     align-self:center;
 }
 
-header{
+#header{
     background-color: #3b6064;
     display:grid;
     grid-template-columns: 150px auto;
+    position:fixed;
+    top:0;
+    width:100%;
+    font-size: 16px;
 }
 
 nav{
